@@ -16,7 +16,7 @@ const hemiLight = new THREE.HemisphereLight(skyColor, groundColor, hemiIntensity
 hemiLight.position.set(0, 0, 0);
 scene.add(hemiLight);
 
-const dirLight = new THREE.DirectionalLight(0xffbfff, 0.1);
+const dirLight = new THREE.DirectionalLight(0xffbfff, 0.05);
 dirLight.position.set(20, 20, 10);
 scene.add(dirLight);
 
@@ -125,7 +125,7 @@ function animate() {
 
   // BLUR ON OBJECT OF THE CANVAS
   let blur = Math.sin(object.rotation.x) * 0.5 + 0.5;
-  renderer.domElement.style.filter = `blur(${blur * 45}px)`;
+  renderer.domElement.style.filter = `blur(${blur * 25}px)`;
 
   init(); 
   renderer.render(scene, camera);
