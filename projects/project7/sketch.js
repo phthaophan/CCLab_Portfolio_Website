@@ -14,10 +14,10 @@ function keyPressed() {
 }
 
 function preload() {
-  // bgImg = loadImage("bgImg.jpg");
-  img2 = loadImage("ximenasModified.png");
-  img3 = loadImage("helensModified.png");
-  img4 = loadImage("thaosModified.png");
+  // bgImg = loadImage("/CCLab_Portfolio_Website/bgImg.jpg");
+  img2 = loadImage("/CCLab_Portfolio_Website/ximenasModified.png");
+  img3 = loadImage("/CCLab_Portfolio_Website/helensModified.png");
+  img4 = loadImage("/CCLab_Portfolio_Website/thaosModified.png");
 }
 
 function setup() {

@@ -10,7 +10,7 @@ let success = false;
 let capture;
 
 function preload() {
-  img = loadImage('/auditoriumtns.jpeg');
+  img = loadImage('/CCLab_Portfolio_Website/auditoriumtns.jpeg');
 }
 
 function setup() {
