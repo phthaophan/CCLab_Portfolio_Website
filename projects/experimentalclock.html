@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords"
+        content="design, portfolio, digital design, webdesign, interaction design, generative design, creative coding, front-end development, graphic design" />
+
+    <meta name="description" content="Portfolio">
+    <meta name="author" content="Phuong Thao Phan">
+
+    <title> ツ EXPERIMENTAL CLOCK ⸺ Phuong Thao Phan | Digital Designer </title>
+    <link rel="icon" type="image/png" href="../sources/base/logo.png" sizes="96x96">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/IDMNYU/p5.js-speech@0.0.3/lib/p5.speech.js"></script>
+
+</head>
+
+<body>
+
+    <header id="basePlaceholder"></header>
+
+    <div class="grid-container" id="individualProject">
+
+        <div>
+            <h1>EXPERIMENTAL CLOCK</h1>
+            <p class="projectDescription">This project uses the term "Experimental Clock" as a metaphor. The visualization of Parsons shows the very beginning of the semester. By clapping, the users are able to open the curtains.</p>
+        </div>
+        <div id="sketchContainer"></div>
+        <script src="./project5/sketch.js"></script>
+
+    </div>
+</body>
+
+<script>
+
+    $(function () {
+        $("#basePlaceholder").load("../base.html");
+    });
+
+</script>
+
+</html>

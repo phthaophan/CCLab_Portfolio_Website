@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords"
+        content="design, portfolio, digital design, webdesign, interaction design, generative design, creative coding, front-end development, graphic design" />
+
+    <meta name="description" content="Portfolio">
+    <meta name="author" content="Phuong Thao Phan">
+
+    <title> ツ DATA PORTRAIT ⸺ Phuong Thao Phan | Digital Designer </title>
+    <link rel="icon" type="image/png" href="../sources/base/logo.png" sizes="96x96">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/IDMNYU/p5.js-speech@0.0.3/lib/p5.speech.js"></script>
+
+</head>
+
+<body>
+
+    <header id="basePlaceholder"></header>
+
+    <div class="grid-container" id="individualProject">
+
+        <div>
+            <h1>DATA PORTRAIT</h1>
+            <p class="projectDescription">In this project, I tracked how many times a day I am talking to Alexa and put the data into an animated poster. Using voice commands the user is able to control the animation. <br>
+            <a href="https://editor.p5js.org/phthaophan/full/9hJJMVvye" target="_blank"><br>See project here.</a></p>
+        </div> 
+        <div id="sketchContainer"></div>
+        <script src="./project2/sketch.js"></script>
+
+    </div>
+</body>
+
+<script>
+
+    $(function () {
+        $("#basePlaceholder").load("../base.html");
+    });
+
+</script>
+
+</html>

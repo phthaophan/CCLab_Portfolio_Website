@@ -6,104 +6,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="design, portfolio, digital design, webdesign, interaction design, generative design, creative coding, front-end development, graphic design" />
+    <meta name="keywords"
+        content="design, portfolio, digital design, webdesign, interaction design, generative design, creative coding, front-end development, graphic design" />
 
     <meta name="description" content="Portfolio">
     <meta name="author" content="Phuong Thao Phan">
-    
-    <title> ツ Phuong Thao Phan | Digital Designer </title>
-    <link rel="icon" type="image/png" href="../sources/base/logo.png" sizes="96x96">
+
+    <title> ツ Phuong Thao Phan | Experiments </title>
+    <link rel="icon" type="image/png" href="../sources/logo.png" sizes="96x96">
     <link rel="stylesheet" type="text/css" href="../style.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.js"></script>
-    <script src="./sources/build/perlin.js"></script>
-
 </head>
 
 <body>
-    <script type="module" src="./script.js"></script>
-
     <header id="basePlaceholder"></header>
-    
+
     <div class="grid-container" id="allProjects">
 
-        <main id="landing">
-            <canvas id="blob"></canvas>
-
-            <h1> Hi, my name is &mdash; Thao. I am a <br> <i>&#042;digital designer.</i> </h1>
+        <main id="landingText">
+            <h1 id="landingTitle">CREATIVE TECHNOLOGIST</h1> <br><br>
+            <p> WEB DEVELOPMENT <br>
+                INTERACTIVE MEDIA <br>
+                GENERATIVE DESIGN <br>
+                DESIGN RESEARCH <br><br><br><br>
+                GRAPHIC DESIGN <br>
+                PHYSICAL COMPUTING
+            </p>
         </main>
 
-        <div id="project1">
-            <a href="./projects/arselectronica2021.html">
-                <img class="projectPicture" src="./sources/shapedbynews_content/shapedbynews_7.jpg"
-                    alt="Shaped by News Project Thumbnail">
+        <div id="project2">
+            <a href="./projects/dataportrait.html">
+                <img class="projectPicture" src="./projects/project2/project2.png" alt="Data Portrait Thumbnail">
             </a>
             <div class="projectCaption">
-                <p class="projectName">Ars Electronica Garden Berlin 2021</p>
-                <p class="workType">Webdesign & -development</p>
+                <p class="projectName">DATA PORTRAIT</p>
             </div>
         </div>
 
-        <div id="project2">
-            <a href="./projects/obsolescence.html">
-                <img class="projectPicture" src="./sources/shapedbynews_content/shapedbynews_7.jpg"
-                    alt="Shaped by News Project Thumbnail">
+        <div id="project1">
+            <a href="./projects/changeofperspective.html">
+                <img class="projectPicture" src="./projects/project1/project1.png" alt="Change of Perspective Thumbnail">
             </a>
             <div class="projectCaption">
-                <p class="projectName">obsolescence</p>
-                <p class="workType">Device Installation</p>
+                <p class="projectName">CHANGE OF PERSPECTIVE</p>
             </div>
         </div>
 
         <div id="project3">
-            <a href="./projects/shapedbynews.html">
-                <img class="projectPicture" src="./sources/shapedbynews_content/shapedbynews_7.jpg"
-                    alt="Shaped by News Project Thumbnail">
+            <a href="./projects/facegenerator.html">
+                <img class="projectPicture" src="./projects/project3/project3.png" alt="Face Generator Thumbnail">
             </a>
             <div class="projectCaption">
-                <p class="projectName"> Shaped by News</p>
-                <p class="workType"> Interactive Website </p>
+                <p class="projectName">FACE GENERATOR</p>
             </div>
         </div>
 
+        <div id="experimentsTitle"> MORE <br> EXPERIMENTS</div>
+
         <div id="project4">
-            <a href="./projects/galluhree.html">
-                <img class="projectPicture" src="./sources/galluhree_content/galluhree_4.jpg"
-                    alt="Galluhree Project Thumbnail">
+            <a href="./projects/lostandfound.html">
+                <img class="projectPicture" src="./projects/project4/project4.png" alt="Lost and Found Thumbnail">
             </a>
-            <div class="projectCaption">
-                <p class="projectName"> Galluhree </p>
-                <p class="workType"> Digital Art Experience </p>
-            </div>
         </div>
 
         <div id="project5">
-            <a href="./projects/memoriam.html">
-                <img class="projectPicture" src="./sources/memoriam_content/memoriam_1.jpg"
-                    alt="Memoriam Project Thumbnail">
+            <a href="./projects/experimentalclock.html">
+                <img class="projectPicture" src="./projects/project5/project5.png" alt="Experimental Clock Thumbnail">
             </a>
-            <div class="projectCaption">
-                <p class="projectName"> Memoriam </p>
-                <p class="workType"> Interaction Design </p>
-            </div>
+        </div>
+
+        <div id="project6">
+            <a href="./projects/whereiswaldo.html">
+                <img class="projectPicture" src="./projects/project6/project6.png" alt="Where is Waldo Thumbnail">
+            </a>
+        </div>
+
+        <div id="project7">
+            <a href="./projects/exquisitecorpse.html">
+                <img class="projectPicture" src="./projects/project7/project7.png" alt="Memoriam Project Thumbnail">
+            </a>
         </div>
 
         <div id="infoText">
-            <!-- <p> <a href="./projects/shapedbynews.html">INTERACTIVE WEBSITES</a> / 3D SPACES / </br>
-            GRAPHIC DESIGN / <a href="./projects/memoriam.html">INTERACTION DESIGN</a> / </br>
-            <a href="./projects/galluhree.html">UNIQUE EXPERIENCES</a> / PROTOTYPES /</br>
-            FRONTEND DEVELOPMENT </p> -->
-            <h3><a href="./projects/shapedbynews.html">Interactive Websites</a> / 3D Spaces /
-                Graphic Design / <a href="./projects/memoriam.html">Interaction Design</a> /
-                <a href="./projects/galluhree.html">Unique Experiences</a> / Prototypes /
-                Front-end Development
-            </h3>
+            <span>INTERESTED?</span> <br>
+            <span>HAVE A LOOK AT MY </span>
+            <a href="https://www.phuongthaophan.design/"> MAIN WORK</a> <br>
+            <span>OR</span>
+            <a href="mailto:hi@phuongthaophan.design">CONTACT ME</a>
+            <span>FOR COLLABS</span>
         </div>
 
     </div>
-    
-    <footer id="footerPlaceholder"></footer>
 
 </body>
 
@@ -111,7 +105,6 @@
 
     $(function () {
         $("#basePlaceholder").load("../base.html");
-        $("#footerPlaceholder").load("../footer.html");
     });
 
 </script>

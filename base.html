@@ -1,36 +1,29 @@
 <body>
+    <div id="nameText">
+        <a href="../index.html"><p>PHUONG THAO PHAN</p></a>
+    </div>
 
     <nav>
         <ul>
-            <li><a href="../index.html"><img id="logo" src="../sources/base/logo1.png" alt="Logo"></a></li>
             <!-- <a href="../lab.html">lab</a> -->
-            <li><a href="../contact.html">contact</a></li>
-            <li><a href="../about.html">about</a></li>
-            <li><a class="jumper" href="../index.html#project1">projects</a></li>
+            <li><a class="jumper" href="../index.html#project1">PROJECTS</a></li>
+            <li><a href="../about.html">ABOUT</a></li>
+            <li><a href="../contact.html">CONTACT</a></li>
             <!-- <a href="#de">de</a> -->
         </ul>
     </nav>
-    
-    <div>
-        <img class="topArrow" src="../sources/base/toparrow.svg" alt="Scroll to top button">
-    </div>
 
-    <div id="socialmedia">
+    <div id="footerText">
         <div>
-            <a href="https://www.instagram.com/phthaophan/" target="_blank">
-                <img class="icon" src="../sources/base/instagram.svg" alt="Instagram Icon">
-            </a>
+            <span id="clock"></span>
+            <p>NEW YORK CITY</p>
         </div>
         <div>
-            <a href="https://www.linkedin.com/in/phuong-thao-phan-24aa01206/" target="_blank">
-                <img class="icon" src="../sources/base/linkedin.svg" alt="LinkedIn Icon">
-            </a>
+            <p>&#169; 2025</p>
         </div>
-        <div>
-            <a href="mailto:hi@phuongthaophan.design" target="_blank">
-                <img class="icon" src="../sources/base/email.svg" alt="Email Icon">
-            </a>
-        </div>
+    </div>
+    <div id="decor">
+        <p>+</p>
     </div>
 
 </body>
@@ -38,35 +31,30 @@
 <script>
 
     // CLICK ON PROJECT 
-    
+
     $(document).ready(function () {
         $(".jumper").on("click", function (e) {
             $("body, html").animate({
-                scrollTop: $("#project1").offset().top
+                scrollTop: $("#project2").offset().top
             }, "slow");
         });
     });
-    
-    // ARROW SCROLLING BACK TO TOP
 
-    $(window).scroll(function () {
-        var scrollPos = $(document).scrollTop();
-        var width = $(window).width();
-        // console.log(scrollPos);
+    // DISPLAY CLOCK 
 
-        if (scrollPos > 50 && width >= 1024) {
-            $(".topArrow").show();
-        } else {
-            $(".topArrow").hide();
-        }
-    });
+(function () {
 
-    $(".topArrow").click(function (e) {
-        e.preventDefault();
-        $("html, body").animate({ 
-            scrollTop: 0 
-        }, "slow");
-        return false;
-    });
+  var clockElement = document.getElementById( "clock" );
+
+  function updateClock ( clock ) {
+    clock.innerHTML = new Date().toLocaleTimeString();
+  }
+
+  setInterval(function () {
+      updateClock( clockElement );
+  }, 1000);
+
+}());
+
 
 </script>
