@@ -15,9 +15,9 @@ function keyPressed() {
 
 function preload() {
   // bgImg = loadImage("/CCLab_Portfolio_Website/bgImg.jpg");
-  img2 = loadImage("/CCLab_Portfolio_Website/ximenasModified.png");
-  img3 = loadImage("/CCLab_Portfolio_Website/helensModified.png");
-  img4 = loadImage("/CCLab_Portfolio_Website/thaosModified.png");
+  img2 = loadImage("/CCLab_Portfolio_Website/projects/project7/ximenasModified.png");
+  img3 = loadImage("/CCLab_Portfolio_Website/projects/project7/helensModified.png");
+  img4 = loadImage("/CCLab_Portfolio_Website/projects/project7/thaosModified.png");
 }
 
 function setup() {
